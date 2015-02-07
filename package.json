@@ -1,0 +1,12 @@
+{
+  "name": "commonform-diff-terminal",
+  "description": "display Common Form diffs at text terminals",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
+  "bin": "./bin",
+  "dependencies": {
+    "ansi-styles": "^2.2.1"
+  },
+  "license": "Apache-2.0",
+  "repository": "commonform/commonform-diff-terminal"
+}
