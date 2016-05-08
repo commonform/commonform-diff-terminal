@@ -12,7 +12,7 @@
  * License for the specific language governing permissions and limitations
  * under the License.
  */
-module.exports = stringify
+module.exports = diffTerminal
 
 var ansi = require('ansi-styles')
 var diff = require('commonform-diff')
@@ -35,7 +35,7 @@ function editStyle(element) {
   else {
     return id } }
 
-function stringify(a, b) {
+function diffTerminal(a, b) {
   return childString({ heading: [ ], form: diff(a, b) }, 0).trim() }
 
 function contentString(content) {
