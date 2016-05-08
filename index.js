@@ -15,6 +15,7 @@
 module.exports = stringify
 
 var ansi = require('ansi-styles')
+var diff = require('commonform-diff')
 
 var styles = {
   word: id,
@@ -34,8 +35,8 @@ function editStyle(element) {
   else {
     return id } }
 
-function stringify(diff) {
-  return childString({ heading: [ ], form: diff }, 0).trim() }
+function stringify(a, b) {
+  return childString({ heading: [ ], form: diff(a, b) }, 0).trim() }
 
 function contentString(content) {
   var returned = ''

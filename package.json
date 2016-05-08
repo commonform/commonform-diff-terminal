@@ -5,7 +5,8 @@
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
   "bin": "./bin",
   "dependencies": {
-    "ansi-styles": "^2.2.1"
+    "ansi-styles": "^2.2.1",
+    "commonform-diff": "^1.0.0"
   },
   "license": "Apache-2.0",
   "repository": "commonform/commonform-diff-terminal"
